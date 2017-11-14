@@ -97,7 +97,7 @@ DocUtils.utf8ToWord = function (string) {
 		r = DocUtils.charMapRegexes[i];
 		string = string.replace(r.rend, r.start);
 	}
-	return string;
+	return string.replace(/[\x00-\x1F-\x9F]/g, '');
 };
 
 // This function is written with for loops for performance
