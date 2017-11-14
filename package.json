@@ -1,6 +1,6 @@
 {
-  "name": "docxtemplater",
-  "version": "3.1.12",
+  "name": "crapthings_docxtemplater",
+  "version": "3.1.13",
   "author": "Edgar Hipp",
   "description": ".docx generator working with templates and data (like Mustache)",
   "contributors": [
